@@ -28,6 +28,8 @@
 			<canvas class="game" id="canvas" width="854px" height="480px" oncontextmenu="event.preventDefault()"></canvas><br>
 			<div id="status">Starting...</div>
 			<script type='text/javascript'>
+				window.onload = function() { window.focus(); }
+
 				var statusElement = document.getElementById('status');
 				var canvasElement = document.getElementById('canvas');
 				var proc;
